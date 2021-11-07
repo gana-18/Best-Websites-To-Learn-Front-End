@@ -44,6 +44,12 @@ body{
     align-items: center;
     flex-wrap: wrap;
 }
+.content{
+    background-color: rgb(164, 215, 235);
+    display:flex;
+    justify-content:space-evenly;
+    flex-direction:column;
+}
 .main1{
     color:rgb(24, 23, 23);
     background-color:floralwhite;
@@ -53,11 +59,13 @@ body{
     flex-direction:column;
     padding:10px;
 }
-.bonus{
+.bonus,.main1,.main2,.main3{
     margin:20px;
     padding:15px;
     background-color: cornsilk;
-    box-shadow:12px 5px 10px 0px red;
+    box-shadow:12px 6px 10px 0px red;
+    border-radius:15px;
+    border:2px solid black;
 }
 a{
     text-decoration:none;
